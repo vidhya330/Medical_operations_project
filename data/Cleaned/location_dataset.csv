@@ -1,0 +1,11 @@
+city,state,district,address,location,hospital_name,facility_name,ward_id
+Chennai,Tamil Nadu,Chennai,"21 Greams Road, Chennai","13.0623,80.2518",Apollo Hospital,Main Facility,W001
+Chennai,Tamil Nadu,Chennai,"45 Anna Salai, Chennai","13.0827,80.2707",Fortis Hospital,Cardiac Center,W002
+Coimbatore,Tamil Nadu,Coimbatore,"100 Avinashi Road, Coimbatore","11.0168,76.9558",KMCH,General Facility,W003
+Madurai,Tamil Nadu,Madurai,"12 KK Nagar, Madurai","9.9252,78.1198",Apollo Speciality Hospital,Emergency Unit,W004
+Bengaluru,Karnataka,Bengaluru Urban,"154 Bannerghatta Road, Bengaluru","12.8956,77.5970",Fortis Hospital,Main Facility,W005
+Hyderabad,Telangana,Hyderabad,"1 Banjara Hills, Hyderabad","17.4126,78.4482",CARE Hospital,Main Facility,W006
+Mumbai,Maharashtra,Mumbai,"123 Marine Drive, Mumbai","18.9440,72.8238",Lilavati Hospital,General Ward,W007
+New Delhi,Delhi,New Delhi,"Ansari Nagar, New Delhi","28.5672,77.2100",AIIMS Delhi,Trauma Center,W008
+Kolkata,West Bengal,Kolkata,"111 EM Bypass, Kolkata","22.5726,88.3639",AMRI Hospital,Main Facility,W009
+Ahmedabad,Gujarat,Ahmedabad,"77 SG Highway, Ahmedabad","23.0225,72.5714",Zydus Hospital,Main Facility,W010

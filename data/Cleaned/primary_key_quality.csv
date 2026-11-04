@@ -1,0 +1,20 @@
+table,primary_key,missing_ids,duplicate_extra_occurrences,duplicate_groups,status
+prescription,prescription_id,0.0,0.0,0.0,PASS
+staff_assignment,assignment_id,0.0,0.0,0.0,PASS
+ward,ward_id,0.0,0.0,0.0,PASS
+insurance_provider,insurance_provider_id,0.0,0.0,0.0,PASS
+patient,patient_id,0.0,0.0,0.0,PASS
+patient_diagnostic,patient_diagnostic_id,0.0,0.0,0.0,PASS
+patient_insurance,patient_insurance_id,0.0,0.0,0.0,PASS
+drug,drug_id,0.0,0.0,0.0,PASS
+drug_inventory,inventory_id,0.0,0.0,0.0,PASS
+drug_manufacturer,manufacturer_id,0.0,0.0,0.0,PASS
+employee,employee_id,0.0,0.0,0.0,PASS
+department,department_id,0.0,0.0,0.0,PASS
+diagnostic_test,diagnostic_test_id,,,,KEY COLUMN NOT FOUND
+disease,disease_id,0.0,0.0,0.0,PASS
+doctor,doctor_id,0.0,0.0,0.0,PASS
+admission,admission_id,0.0,0.0,0.0,PASS
+bed,bed_id,0.0,0.0,0.0,PASS
+billing,bill_id,0.0,0.0,0.0,PASS
+billing_detail,billing_detail_id,0.0,0.0,0.0,PASS

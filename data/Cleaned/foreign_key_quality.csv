@@ -1,0 +1,22 @@
+parent_table,parent_key,child_table,child_key,parent_duplicate_ids,missing_child_ids,invalid_references,candidate_cardinality,status
+patient,patient_id,admission,patient_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+department,department_id,admission,department_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+ward,ward_id,admission,ward_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+bed,bed_id,admission,bed_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+disease,disease_id,admission,disease_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+admission,admission_id,billing,admission_id,0.0,0.0,0.0,CHILD KEY UNIQUE IN CURRENT DATA; VERIFY BUSINESS RULE,PASS - VERIFY BUSINESS RULE
+billing,bill_id,billing_detail,bill_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+department,department_id,employee,department_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+employee,employee_id,doctor,employee_id,0.0,0.0,0.0,CHILD KEY UNIQUE IN CURRENT DATA; VERIFY BUSINESS RULE,PASS - VERIFY BUSINESS RULE
+department,department_id,doctor,department_id,,,,UNKNOWN,CHECK COLUMN NAMES
+employee,employee_id,staff_assignment,employee_id,0.0,0.0,0.0,CHILD KEY UNIQUE IN CURRENT DATA; VERIFY BUSINESS RULE,PASS - VERIFY BUSINESS RULE
+ward,ward_id,staff_assignment,ward_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+patient,patient_id,patient_diagnostic,patient_id,,,,UNKNOWN,CHECK COLUMN NAMES
+disease,disease_id,patient_diagnostic,disease_id,,,,UNKNOWN,CHECK COLUMN NAMES
+diagnostic_test,diagnostic_test_id,patient_diagnostic,diagnostic_test_id,,,,UNKNOWN,CHECK COLUMN NAMES
+patient,patient_id,patient_insurance,patient_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+insurance_provider,insurance_provider_id,patient_insurance,insurance_provider_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+drug_manufacturer,manufacturer_id,drug,manufacturer_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
+drug,drug_id,drug_inventory,drug_id,0.0,0.0,0.0,CHILD KEY UNIQUE IN CURRENT DATA; VERIFY BUSINESS RULE,PASS - VERIFY BUSINESS RULE
+patient,patient_id,prescription,patient_id,,,,UNKNOWN,CHECK COLUMN NAMES
+drug,drug_id,prescription,drug_id,0.0,0.0,0.0,PARENT TO CHILD: 1:* CANDIDATE,PASS - VERIFY BUSINESS RULE
