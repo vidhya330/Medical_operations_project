@@ -318,8 +318,3 @@ Vidhya S.
 
 Aspiring Data Analyst | Power BI Developer
 
-GitHub: https://github.com/vidhya330
-
----
-
-⭐ If you find this project useful, consider giving the repository a star.
