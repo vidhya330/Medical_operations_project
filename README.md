@@ -5,7 +5,7 @@ Transforming Hospital Data into Actionable Business Insights Using Python & Powe
 📌 Project Overview
 
 
-![Medical Operations project](Screenshots/Home Page.png)
+![Medical_Operations_project](Screenshots/Home Page.png)
 
 The Medical Operations Intelligence Dashboard is an end-to-end healthcare analytics project designed to help hospital administrators monitor operational performance, evaluate resource utilization, analyze patient flow, and make data-driven business decisions.
 
