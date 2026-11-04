@@ -14,6 +14,10 @@ This project integrates multiple healthcare datasets, performs data cleaning and
 
 The dashboard focuses on five major areas: executive performance, patient admissions, financial performance, resource utilization, and management intelligence.
 
+My Project Link :-
+
+https://app.powerbi.com/view?r=eyJrIjoiNTU4OGQ5N2UtYTIwZC00MDc4LTlmMmMtMGRiMGRhNTYzOGQxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+
 🎯 Business Objectives
 
 - Monitor overall hospital performance through centralized KPIs.
